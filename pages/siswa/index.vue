@@ -40,7 +40,7 @@
   </template>
   
   <script setup>
-  const supabase = useSupabaseClient ()
+  const supabase = useSupabaseClient()
   const visitors = ref([])
   const keyword = ref('')
   
